@@ -1,20 +1,68 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
 }
- html, body{
-    background-color: #dcdde1;
- }
 
- h1{
-    text-align: center;
-    margin-block: 40px;
-    font-size: 48px;
- }
- p{
-    text-align: center;
- }
+body{
+   width: 468px;
+   margin: auto;
+   background-color: #022ea5e3;
+   color: white;
+}
 
+h1{
+   text-align: center;
+   margin-block: 40px;
+   font-size: 48px;
+}
+
+p{
+   text-align: center;
+}
+
+.busca{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+   width: 468px;
+   margin: 40px auto;
+}
+.busca input{
+   font-size: 15px;
+
+   width: 250px;
+   height: 30px;
+   margin-block: 8px;
+
+   border: none;
+   border-bottom: 1px solid #dcdde1;
+   border-radius: 5px;
+
+   background-color: #022ea5e3;
+   color: whitesmoke;
+}
+
+.busca button{
+   width: 160px;
+   padding: 6px;
+   border-radius: 5px;
+   border: none;
+   background-color: #4cd137;
+   cursor: pointer;
+   transition: all 0.5s;
+}
+
+.busca button:hover{
+   transform: scale(1.05);
+}
+
+.resultado{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+}
 
