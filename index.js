@@ -24,6 +24,7 @@ cepButton.addEventListener('click', () => {
             const data = await res.json()
             Swal.close()
 
+<<<<<<< HEAD
             divResultado.innerHTML = 
                 `
                     <p data-aos="fade-right" data-aos-duration="1000">Cidade: ${data.city}</p>
@@ -32,6 +33,17 @@ cepButton.addEventListener('click', () => {
 
                     
                 `
+=======
+            divResultado.innerHTML =
+            `
+            <div data-aos="fade-in" data-aos-duration="2000">
+            <p>Rua: ${data.street}</p>
+            <p>Bairro: ${data.neighborhood}</p>
+            <p>cidade: ${data.city}</p>
+            <p>Estado: ${data.state}</p>
+            `
+
+>>>>>>> 8fc863df89f8ff3dffd550319ba53aa224f29383
             console.log(data)
         } catch (err) {
             Swal.fire('Erro', 'Verifique o CEP informado e tente novamente', 'error')

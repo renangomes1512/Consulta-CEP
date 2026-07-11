@@ -5,6 +5,7 @@
    font-family: "Roboto", sans-serif;
 }
 
+<<<<<<< HEAD
 body{
    width: 468px;
    margin: auto;
@@ -64,5 +65,61 @@ p{
    display: flex;
    flex-direction: column;
    align-items: start;
+=======
+ h1{
+    text-align: center;
+    margin-block: 40px;
+    font-size: 48px;
+ }
+
+ p{
+    text-align: center;
+ }
+
+ .busca{
+   margin: 40px auto;
+   max-width: 960px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   padding: 40px;
+   /*Display*/
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   }
+
+.busca input{
+   margin-block: 16px;
+   border: none;
+   border-bottom: 1px solid #999;
+   background-color: #dcdde1;
+   font-size: 16px;
+   outline: transparent;  
+   text-align: center;
+}
+
+.busca button{
+   border: none;
+   background-color: #00a8ff;
+   width: 160px;
+   padding-block: 8px;
+   border-radius: 4px;
+   cursor: pointer;
+   color: #fff;
+   font-size: 16px;
+   font-weight: bold;
+   transition: 0.5s ease-in-out;
+}
+
+.busca button:hover {
+background-color: #0097e6;
+transform: scale(1.1);
+box-shadow: 4px 4px 8px #999;
+}
+
+.resultado p{
+   font-size: 20px;
+>>>>>>> 8fc863df89f8ff3dffd550319ba53aa224f29383
 }
 
